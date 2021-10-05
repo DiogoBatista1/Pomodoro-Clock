@@ -1,0 +1,29 @@
+body{
+    color: white;
+    background: rgb(177,42,42);
+    background: radial-gradient(circle, rgba(177,42,42,1) 0%, rgba(0,83,120,1) 61%);
+}
+
+.dual-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 700px;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.time-sets{
+    display: grid;
+    grid-template-columns: 50px 200px 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) and (min-width: 544px) {
+    body{
+        color: white;
+        background: rgb(177,42,42);
+        background: radial-gradient(circle, rgba(177,42,42,1) 0%, rgba(0,83,120,1) 61%);
+    }
+}
