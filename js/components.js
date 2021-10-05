@@ -88,7 +88,6 @@ function App() {
         setOnBreak(false);
         setTimeOn(false);
         breakAudio.currentTime = 0;
-        breakAudio.play();
     }
 
     return(
